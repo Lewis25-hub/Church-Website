@@ -8,61 +8,63 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
         header {
-            background-color: #4a7c59;
+            background-color: #8B5A2B;
             color: white;
-            padding: 20px;
+            padding: 20px 0;
             font-size: 24px;
         }
         nav {
-            background: #3b5a40;
-            padding: 10px;
+            margin: 20px 0;
         }
         nav a {
-            color: white;
+            margin: 0 15px;
             text-decoration: none;
-            padding: 15px;
-            display: inline-block;
+            color: #8B5A2B;
+            font-weight: bold;
         }
         .container {
+            width: 80%;
+            margin: auto;
             padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         footer {
-            background-color: #4a7c59;
+            background-color: #8B5A2B;
             color: white;
-            padding: 10px;
-            position: fixed;
+            padding: 10px 0;
+            position: absolute;
             bottom: 0;
             width: 100%;
         }
     </style>
 </head>
 <body>
-
-    <header>
-        <h1>Welcome to All Walks of Life Ministry</h1>
-    </header>
-
+    <header>All Walks of Life Ministry</header>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
     </nav>
-
     <div class="container">
-        <h2>Our Mission</h2>
-        <p>We are a church dedicated to spreading love, faith, and hope to all people.</p>
-        <img src="church-logo.jpg" alt="Church Logo" width="200">
+        <h2>Welcome to Our Church</h2>
+        <p>Join us in worship and fellowship as we walk in faith together.</p>
+        <img src="church_logo.png" alt="Church Logo" width="200px">
+        <h3 id="about">About Us</h3>
+        <p>All Walks of Life Ministry is a community-centered church dedicated to spreading love and faith.</p>
+        <h3 id="services">Our Services</h3>
+        <p>Sunday Worship - 10:00 AM | Bible Study - Wednesday 6:30 PM</p>
+        <h3 id="contact">Contact Us</h3>
+        <p>Email: info@awolministry.org | Phone: (123) 456-7890</p>
     </div>
-
     <footer>
-        &copy; 2025 All Walks of Life Ministry | All Rights Reserved
+        &copy; 2025 All Walks of Life Ministry. All Rights Reserved.
     </footer>
-
 </body>
 </html>
