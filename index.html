@@ -36,29 +36,24 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         footer {
-            background-color: #8B5A2B;
-            color: white;
-            padding: 10px 0;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            footer {
-    position: relative; /* Ensures it stays below the content */
-    bottom: 0;
-    width: 100%;
+    background-color: #8B5A2B; /* Keep your color */
+    color: white;
+    padding: 10px 0;
     text-align: center;
     font-size: 14px;
-    padding: 10px;
-    background-color: #f8f8f8; /* Optional: Adds background for visibility */
-    white-space: normal; /* Prevents text from getting cut off */
+    width: 100%;
+    position: relative; /* Remove absolute positioning */
+    bottom: auto; /* Reset bottom */
+    white-space: normal; /* Prevents text from cutting off */
 }
 
 @media screen and (max-width: 600px) { /* Styles for smaller screens */
     footer {
-        font-size: 12px; /* Adjusts text size for mobile */
+        font-size: 12px; /* Adjust text size */
         padding: 8px;
     }
 }
+
 
         }
     </style>
