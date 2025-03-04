@@ -42,6 +42,24 @@
             position: absolute;
             bottom: 0;
             width: 100%;
+            footer {
+    position: relative; /* Ensures it stays below the content */
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #f8f8f8; /* Optional: Adds background for visibility */
+    white-space: normal; /* Prevents text from getting cut off */
+}
+
+@media screen and (max-width: 600px) { /* Styles for smaller screens */
+    footer {
+        font-size: 12px; /* Adjusts text size for mobile */
+        padding: 8px;
+    }
+}
+
         }
     </style>
 </head>
