@@ -1,0 +1,16 @@
+footer {
+    position: relative; /* or fixed if you want it always visible */
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    white-space: normal; /* Ensures text wraps properly */
+}
+
+@media screen and (max-width: 600px) { /* Adjust for smaller screens */
+    footer {
+        font-size: 12px; /* Reduce font size */
+        padding: 8px;
+    }
+}
